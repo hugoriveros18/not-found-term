@@ -1,5 +1,5 @@
 {
-  "meta-tag": {
-    "component": "MetaTags"
+  "not-found-term": {
+    "component": "NotFoundTerm"
   }
 }
