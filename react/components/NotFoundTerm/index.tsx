@@ -23,7 +23,7 @@ const NotFoundTerm = () => {
     <div className={`${handles['not-found-term__global-container']}`}>
       <h3 className={`${handles['not-found-term__oops']}`}>¡OOPS!</h3>
       <p className={`${handles['not-found-term__text']}`}>
-        Lo sentimos, no encontramos resultados para <span className={`${handles['not-found-term__text--term']}`}>`{searchPage.params.term}`</span>
+        Lo sentimos, no encontramos resultados para <span className={`${handles['not-found-term__text--term']}`}>`{searchPage?.params.term}`</span>
       </p>
       <p className={`${handles['not-found-term__correction']}`}>Revisa la ortografía  |  Intenta buscar con un término más general</p>
     </div>
